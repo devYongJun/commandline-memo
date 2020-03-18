@@ -4,7 +4,8 @@ alias {var}="{command}"
 ex) alias k="kubectl"  
 
 
-# docker [공식문서링크](https://docs.docker.com/engine/reference/commandline/cli/)  
+# docker 
+[공식문서링크](https://docs.docker.com/engine/reference/commandline/cli/)  
 - 실행중인 컨테이너 리스트  
 docker ps  
   
@@ -36,15 +37,18 @@ ex) docker run -d --name my-redis -p 6379:6379 redis:latest
 docker exec -it {container-id} {image-id}
 ex) docker exec -it mongodb mongo
 
-# docker-compose [공식문서링크](https://docs.docker.com/compose/reference/)   
+# docker-compose 
+[공식문서링크](https://docs.docker.com/compose/reference/)   
 - 실행  
 docker-compose up  
 
-# kubernetes-kompose [공식문서링크](https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/)  
+# kubernetes-kompose 
+[공식문서링크](https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/)  
 - 변환  
 kompose convert  
   
-# gcloud [공식문서링크](https://cloud.google.com/sdk/gcloud?hl=ko)  
+# gcloud 
+[공식문서링크](https://cloud.google.com/sdk/gcloud?hl=ko)  
 - 초기화  
 gloud init  
   
