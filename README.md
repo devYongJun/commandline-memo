@@ -72,7 +72,7 @@ ex) gcloud container clusters get-credentials first-cluster
 - 도커 권한 설정  
 ex) gcloud auth configure-docker  
   
-- 도커이미지 등록 (이미지생성시 필수 컨벤션을 따라야한다)  
+- 도커이미지 등록 (이미지생성시 이름규칙을 따라야한다)  
 docker push {region-id}/{project-id}/{name}:{tag}  
 ex) docker push gcr.io/myproj-271309/mygame:v1    
 
