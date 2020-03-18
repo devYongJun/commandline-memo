@@ -40,6 +40,10 @@ ex) docker exec -it mongodb mongo
 - 실행  
 docker-compose up  
 
+# kubernetes-kompose [공식문서링크](https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/)  
+- 변환  
+kompose convert  
+  
 # gcloud [공식문서링크](https://cloud.google.com/sdk/gcloud?hl=ko)  
 - 초기화  
 gloud init  
