@@ -1,7 +1,7 @@
-# common tip
-긴 명령어 별명 지정
-alias {var}="{command}"
-ex) alias k="kubectl"
+# 공통 팁   
+긴 명령어 별명 지정  
+alias {var}="{command}"  
+ex) alias k="kubectl"  
 
 
 # docker  
