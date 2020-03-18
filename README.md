@@ -99,21 +99,21 @@ ex) kubectl apply -f ./my-service.yaml
 
 # mongodb 
 [공식문서링크](https://docs.mongodb.com/manual/mongo/)  
-- 데이터베이스 선택 
-use {database-name}
-ex)use admin
-
-- 인증
-db.auth("{name}", "{pwd}")
-ex) db.auth("id","password")
-
-- 데이터베이스 모든사용자 정보
-db.getUsers()
-
-- 데이터베이스 사용자 생성 (파라미터 넣는 방법은 따로 검색)
-db.createUSer(...)   
+- 데이터베이스 선택  
+use {database-name}  
+ex)use admin  
   
-- 모든 데이터베이스 리스트  
+- 인증  
+db.auth("{name}", "{pwd}")  
+ex) db.auth("id","password")  
+  
+- 데이터베이스 모든사용자 정보  
+db.getUsers()  
+  
+- 데이터베이스 사용자 생성 (파라미터 넣는 방법은 따로 검색)  
+db.createUser(...)     
+  
+- 모든 데이터베이스 리스트   
 show dbs  
 show databases  
   
