@@ -137,3 +137,20 @@ config set requirepass {password}
   
 - 모든 데이터 삭제  
 flushall  
+
+
+
+
+# git
+-풀 리퀘스트
+1. 먼저 fork..    
+2. git clone <fork 저장소>  
+3. git checkout -b <branch이름>   
+4. 코드변경..  
+5. git add .  
+6. git commit -m "<message>"  
+7. git push origin <branch이름>  
+8. 깃허브에서 풀 리퀘스트 생성버튼 클릭  
+9. git checkout origin  
+10. git branch -D <branch이름>
+11. git push --delete origin <branch이름>
