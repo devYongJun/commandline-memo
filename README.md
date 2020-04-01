@@ -142,7 +142,7 @@ flushall
 
 
 # git
--풀 리퀘스트
+- 풀 리퀘스트
 1. 먼저 fork..    
 2. git clone <fork 저장소>  
 3. git checkout -b <branch이름>   
