@@ -148,7 +148,7 @@ flushall
 3. git checkout -b <branch이름>   
 4. 코드변경..  
 5. git add .  
-6. git commit -m "<message>"  
+6. git commit -m "message"  
 7. git push origin <branch이름>  
 8. 깃허브에서 풀 리퀘스트 생성버튼 클릭  
 9. git checkout origin  
