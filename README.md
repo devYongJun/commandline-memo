@@ -144,7 +144,7 @@ flushall
 # git
 - 풀 리퀘스트
 1. 깃허브에서 대상프로젝트 Fork     
-2. git clone <fork 저장소>  
+2. git clone <fork저장소>  
 3. git checkout -b <branch이름>   
 4. 코드변경  
 5. git add .  
