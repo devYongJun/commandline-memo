@@ -1,5 +1,5 @@
-# common tip  
-- 긴 명령어 별명 지정  
+# terminal
+- 명령어 별명 지정  
 alias {var}="{command}"  
 ex) alias k="kubectl"  
 
@@ -139,8 +139,6 @@ config set requirepass {password}
 flushall  
 
 
-
-
 # git
 - 풀 리퀘스트
 1. 깃허브에서 대상프로젝트 Fork     
@@ -150,7 +148,4 @@ flushall
 5. git add .  
 6. git commit -m "message"  
 7. git push origin <branch이름>  
-8. 깃허브에서 Pull Request  
-9. git checkout origin  
-10. git branch -D <branch이름>
-11. git push --delete origin <branch이름>
+8. 깃허브페이지 Pull Request  
